@@ -31,7 +31,7 @@ try:
 except Exception:
     pass
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 MAX_TOTAL_CHARS = 11000
 MAX_CHARS_PER_PAGE = 4500
 REQUEST_TIMEOUT = 12
